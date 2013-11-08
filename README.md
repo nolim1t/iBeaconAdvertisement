@@ -27,8 +27,8 @@ Add  in the following method
         NSUUID *proximityUUID = [[NSUUID alloc] initWithUUIDString:@"E2C56DB5-DFFB-48D2-B060-D0F5A71096E0"];
         
         BeaconAdvertisementUtil *beaconData = [[BeaconAdvertisementUtil alloc] initWithProximityUUID:proximityUUID
-                                                                                                     major:5
-                                                                                                     minor:5000
+                                                                                                     major:1
+                                                                                                     minor:1
                                                                                              measuredPower:-59];
         
         
